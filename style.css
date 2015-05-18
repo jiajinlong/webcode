@@ -1,0 +1,52 @@
+/*
+    Theme Name: webcode
+    Theme URI: http://www.silence.com
+    Author: Silence
+    Author URI: http://www.silence.com
+    Description: 这是按照外国视频做出来的。
+    Version: 1.0
+    Tags: Wordpress, responsive
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a:link,
+a:visited {
+    color: #006ec3;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+/* 一般布局 */
+div.container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article.post {
+    border-bottom: 2px dotted #bbb;
+}
+
+/* 指定article.post最后一个类的下边框为无 */
+article.post:last-of-type {
+    border-bottom: none;
+}
+
+/* 头部 */
+.site-header {
+    border-bottom: 2px solid #999;
+}
+
+/* 底部 */
+.site-footer {
+    margin-top: 30px;
+    border-top: 2px solid #999;
+}
